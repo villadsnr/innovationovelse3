@@ -8,7 +8,7 @@ import StateButton from "../StateEventHandlerComponent";
 
 export default function SessionScreen() {
     return(
-        <View style ={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+        <View style ={{flex: 1, justifyContent: 'center', alignItems: 'center', border: 'dotted'}}>
             <Text>Session, her skal der være kamera funktion, som kan tage billede af genstanden</Text>
             <StateButton></StateButton>
         </View>
